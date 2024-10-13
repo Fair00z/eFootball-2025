@@ -1,0 +1,86 @@
+
+.top-nav-icons{
+    font-size: 35px;
+    color: #008efe;
+}
+.nav-top{
+    width: 100%;
+    height: 40px;
+    
+}
+.nav-sec{
+    width: 100%;
+    height: 100%;
+}
+.nav-sec-box{
+    width: 100%;
+    height: 45px;
+    background-color: #1d1e23;
+    border-radius: 20px;
+}
+.nav-sec ul li{
+    list-style-type: none;
+}
+.nav-sec ul{
+    margin: 0;
+}
+.nav-2-item-box{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+
+    
+}
+.nav-2-item-box.active{
+    background-color: #828387;
+}
+.banner{
+    border-radius: 1.8125rem;
+    overflow: hidden;
+}
+.banner-container{
+    display: inline-block;
+}
+.banners{
+    display: flex;
+    
+}
+.image-slider {
+    scrollbar-width: none; /* For Firefox */
+    -ms-overflow-style: none; /* For Internet Explorer and Edge */
+}
+
+.image-slider::-webkit-scrollbar {
+    display: none; /* For Chrome, Safari, and Opera */
+}
+.footer-box{
+    width: 10.625rem;
+    border-radius: 20px;
+    height: 120px;
+    
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-box i{
+    font-size: 55px;
+}
+.match{
+    background: linear-gradient(1deg, #007783, #00f1ff);
+}
+.squad{
+    background: linear-gradient(1deg, #4ec700, #adf400);
+    
+}
+.team{
+    background: linear-gradient(1deg, #e3051e, #ff3186);
+}
+.contract{
+    background: linear-gradient(1deg, #84019d, #cc01d7);
+}
+.daily-game{
+    background: linear-gradient(1deg, #d06600, #dfb500);
+}
