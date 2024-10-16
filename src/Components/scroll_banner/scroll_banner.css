@@ -1,0 +1,9 @@
+.image-slider{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.image-slider img{
+    width: 75%;
+}

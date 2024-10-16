@@ -5,7 +5,7 @@ import './top_header.css'
 
 function TopHeader() {
     return(
-        <div>
+        <div className="mt-2">
             <nav>
             <div className="container-fluid">
                 <div className="row">
