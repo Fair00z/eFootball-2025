@@ -20,6 +20,7 @@
     align-items: center;
     justify-content: center;
     border-radius: 20px;
+    cursor: pointer;
 }
 .nav-2-item-box.active{
     background-color: #828387;

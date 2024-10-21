@@ -1,0 +1,28 @@
+.plan-div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.plan-div{
+    position: relative;
+}
+.plan-div button{
+    position: absolute;
+    bottom: 40px;
+    left: 134px;
+    width: 230px;
+    height: 45px;
+    border-radius: 10px;
+    font-weight: 700;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 15px;
+    border: none;
+    font-size: 20px;
+    background: linear-gradient(45deg, #0078fb, #01c6f0);
+}
+.plan-div button i{
+    margin-right: 10px;
+    font-size: 30px;
+}

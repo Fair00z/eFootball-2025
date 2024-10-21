@@ -1,8 +1,11 @@
 import React from "react";
 import './menu.css'
 import football_field_icon from '../../Assets/images/football-field.png'
+import { useNavigate } from "react-router-dom";
 
 function Menu(){
+    const navigate = useNavigate();
+
     return(
         <div class="container mt-5">
             <div class="row">
@@ -15,7 +18,7 @@ function Menu(){
                             <span class="">Match</span>
                         </div>
                         <div class="text-center">
-                            <div class="bg-warning footer-box squad">
+                            <div onClick={()=>navigate('game-plan')} class="bg-warning footer-box squad">
                                 <img src={football_field_icon} style={{width: '50%', height: '50%', objectFit: 'cover',}} alt=""/>
                             </div>
                             <span>Game Plan</span>

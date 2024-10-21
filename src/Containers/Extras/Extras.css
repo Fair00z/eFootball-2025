@@ -1,0 +1,36 @@
+.extras{
+    width: 100% !important;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    
+}
+.extras-box{
+    width: 70%;
+    flex-wrap: wrap;
+}
+.extras-icon{
+    width: 37%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+}
+.extras-icon i{
+    font-size: 70px;
+}
+.extras-content{
+    padding-left: 30px;
+    width: 63%;
+    
+}
+.extras-content h3{
+    font-weight: 600;
+}
+.extras-content p{
+    color: #949090;
+    font-weight: 700;
+}
